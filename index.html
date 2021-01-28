@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PORTFOLIO Stan Codeur</title>
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/mediaQueries.css">
+	<script src="https://kit.fontawesome.com/37df1db6ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="cursor"></div>
+
+	<div id="burger">
+		<div class="barre"></div>
+		<div class="barre"></div>
+		<div class="barre"></div>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="#APropos" data-content="À propos">À propos</a></li>
+			<li><a href="#Diplomes" data-content="Diplômes">Diplômes</a></li>
+			<li><a href="#SavoirFaire" data-content="Savoir-faire">Savoir-faire</a></li>
+			<li><a href="#SavoirEtre" data-content="Savoir-être">Savoir-être</a></li>
+			<li><a href="#Portfolio" data-content="Portfolio">Portfolio</a></li>
+			<li><a href="#Contact" data-content="Contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<header>
+		<a href="CV_stageDeveloppementWEB.pdf" target="_blank">Télecharger mon CV</a>
+		<div class="container">
+			<div id="identite">Stan Devs</div>
+			<h1 id="titre">Étudiant en DUT informatique</h1>
+		</div>
+		<div class="mouse"></div>
+	</header>
+
+	<main>
+		<section id="APropos" class="">
+			<div class="container" data-animation="right">
+				<h2>À propos</h2>
+				<p>
+					J'ai 19 ans et vis dans la région de Bourg-en-Bresse (01000) où j'étudie en DUT informatique à l'IUT Lyon 1. Ma réussite professionnelle étant pour moi un objectif majeur, je souhaiterais acquérir de l'expérience dans le développement web. Les nouvelles technologies ayant toujours été une passion pour moi, je me suis naturellement tourné vers ce milieu professionnel. Ma motivation ainsi que ma rigeur sont des atouts qui me permettront de devenir, je l'espère, un bon developpeur web.
+				</p>
+			</div>
+		</section>
+
+		<section id="Diplomes">
+			<div class="container" data-animation="bottom">
+				<h2>Diplômes</h2>
+				<div class="containerFlex" data-items="2">
+
+					<div class="item">
+						<h3>DUT Informatique</h3>
+						<div class="periodeDiplome">2019 - en ce moment</div>
+						<div class="lieuDiplome">Bourg-en-Bresse (01000)</div>
+					</div>
+
+					<div class="item">
+						<h3>Baccalauréat STI2D</h3>
+						<div class="periodeDiplome">2018 - 2019</div>
+						<div class="lieuDiplome">Chalon-sur-Saône (71100)</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="SavoirFaire">
+			<div class="container" data-animation="left">
+				<h2>Savoir-faire</h2>
+				<div class="containerGrid">
+					<div class="containerSkill">
+						<h3><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>HTML5 & CSS3</h3>
+						<div class="skillBar" id="html"></div>
+					</div>
+					<div class="containerSkill">
+						<h3><i class="fab fa-bootstrap"></i>Bootstrap</h3>
+						<div class="skillBar" id="bootstrap"></div>
+					</div>
+					<div class="containerSkill">
+						<h3><i class="fab fa-js-square"></i>JavaScript</h3>
+						<div class="skillBar" id="javascript"></div>
+					</div>
+					<div class="containerSkill">
+						<h3><i class="fab fa-php"></i>PHP</h3>
+						<div class="skillBar" id="php"></div>
+					</div>
+					<div class="containerSkill">
+						<h3><i class="fas fa-database"></i>MySQL</h3>
+						<div class="skillBar" id="mysql"></div>
+					</div>
+					<div class="containerSkill">
+						<h3><i class="fab fa-git-alt"></i>Git</h3>
+						<div class="skillBar" id="git"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="SavoirEtre">
+			<div class="container" data-animation="bottom">
+
+				<h2>Savoir-être</h2>
+				<div class="containerFlex" data-items="2">
+					<div class="item">
+						<h3>Perfectionniste</h3>
+						<p>La rigeur est une qualité indispensable dans ce secteur</p>
+					</div>
+					<div class="item">
+						<h3>Curieux</h3>
+						<p>L'apprentissage est pour moi très important. C'est la raison pour laquelle je cherche perpétuellement à découvrir de nouvelles choses.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="Portfolio">
+			<div class="container" data-animation="right">
+				<h2>Portfolio</h2>
+				<div class="containerPortfolio">
+					<div class="project">
+						<div class="projectDesc">
+							<h3>Pédibus</h3>
+							<div class="projectTechnologies">html / css / javascript / php / mysql</div>
+							<ul>
+								<li>Projet en groupe (DUT)</li>
+								<li>Mettre en oeuvre un moyen de créer et réserver un pédibus pour les écoliers</li>
+								<li>Définir des trajets sur une carte</li>
+								<li>Définir des plannings abev des accompagnants pour les enfants</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="project">
+						<div class="projectDesc">
+							<h3>Site web pour un cabinet médical</h3>
+							<div class="projectTechnologies">html / css / bootstrap</div>
+							<ul>
+								<li>Projet par groupe de 2 (DUT)</li>
+								<li>Mettre en oeuvre la partie front-end d'un site pour un cabinet médical</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="project">
+						<div class="projectDesc">
+							<h3>Livre dont vous êtes le héros</h3>
+							<div class="projectTechnologies">html / css / c++ / sdl</div>
+							<ul>
+								<li>Projet universitaire par groupe de 4</li>
+								<li>Mettre en oeuvre un livre interactif</li>
+								<li>Deux interfaces différentes : web (html / css) et C++ (SDL)</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="project">
+						<div class="projectDesc">
+							<h3>Nichoir connecté</h3>
+							<div class="projectTechnologies">html / css / php / python / linux</div>
+							<ul>
+								<li>Projet baccalauréat STI2D (option SIN)</li>
+								<li>Mettre en oeuvre différents capteurs
+									<ul>
+										<li>Capteur de passage (barriére infrarouge)</li>
+										<li>Capteurs de température (intérieur et extérieur)</li>
+										<li>Caméra avec led infrarouge pilotables</li>
+									</ul>
+								</li>
+								<li>Regrouper les données (caméra en direct, données de température en direct, nombre total de passage) sur une interface web ainsi que pouvoir piloter les leds</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="Contact">
+			<div class="container" data-animation="left">
+				<h2>Contact</h2>
+				<div class="containerFlex">
+					<a href="mailto: stanl.devs@gmail.com"><i class="fas fa-envelope-square"></i></a>
+					<a href="https://www.linkedin.com/in/pierre-stanislas-l-990b89195/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/StanDevs" target="_blank"><i class="fab fa-github-square"></i></a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer><i class="far fa-copyright"></i> Tous droits réservés</footer>
+
+	<button id="ScrollTop"><i class="fas fa-chevron-up"></i></button>
+
+	<script src="js/app.js"></script>
+</body>
+</html>

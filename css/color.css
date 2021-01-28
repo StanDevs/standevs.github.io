@@ -1,0 +1,67 @@
+:root {
+	--mainBackgroundColor : #000108;
+	--scndBackgroundColor : #0E0F14;
+	--textColor : #FCFBF1;
+	--mainColor : #15616D;
+}
+
+* {
+	color:var(--textColor);
+}
+
+body {
+	background-color:var(--mainBackgroundColor);
+}
+
+h1 {
+	color:var(--textColor);
+}
+
+h2 {
+	color:var(--mainColor);
+}
+
+h2::after {
+	background-color:var(--textColor);
+}
+
+header a {
+	color:var(--mainColor);
+}
+
+header a:hover {
+	color:var(--textColor);
+}
+
+#identite {
+	color:var(--textColor);
+}
+
+nav {
+	background-color : var(--mainBackgroundColor);
+}
+
+nav ul li a {
+	color:var(--mainColor);
+}
+
+
+#burger .barre {
+	background-color: var(--textColor);
+}
+
+#burger:hover .barre {
+	background-color: var(--mainColor);
+}
+
+.periodeDiplome {
+	color:var(--mainColor);
+}
+
+.skillBar {
+	background-color: var(--scndBackgroundColor);
+}
+
+.skillBar::after {
+	background-color: var(--mainColor) ;
+}
