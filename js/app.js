@@ -101,3 +101,8 @@ function typeWriter() {
 }
 document.getElementById("titre").innerHTML="";
 typeWriter();
+
+if ("ontouchstart" in document.documentElement)
+{
+document.getElementById('cursor').style.display = "none"
+}

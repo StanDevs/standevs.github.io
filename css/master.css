@@ -6,6 +6,11 @@
 	outline: none;
 }
 
+body {
+	width:100%;
+	overflow-x:hidden;
+}
+
 ::selection {
 	background-color:var(--mainColor);
 	color:var(--textColor);
@@ -226,21 +231,6 @@ h2::after {
 	transform:translateX(0);
 	opacity:1;
 	transition: transform 1s, opacity 1s;
-}
-
-.notVisible[data-animation="bottom"] {
-	transform: translateY(100px);
-	opacity: 0;
-}
-
-.notVisible[data-animation="right"] {
-	transform: translateX(100px);
-	opacity: 0;
-}
-
-.notVisible[data-animation="left"] {
-	transform: translateX(-100px);
-	opacity: 0;
 }
 
 section .container {

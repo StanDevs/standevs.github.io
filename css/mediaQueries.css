@@ -37,3 +37,20 @@
 		padding-top:10vh;
 	}
 }
+
+@media (min-width: 760px) {
+	.notVisible[data-animation="bottom"] {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+
+	.notVisible[data-animation="right"] {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+
+	.notVisible[data-animation="left"] {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+}
